@@ -1,15 +1,17 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { Header } from './components/header/Header'
+import { AddTask } from './components/addTask/AddTask'
+import { ShowTask } from './components/showTask/ShowTask'
+
 import './App.css'
 
 function App() {
   
-
   return (
     <>
       <div className='App'>
-        <h1>Hello World</h1>
+        <Header />
+        <AddTask />
+        <ShowTask />
       </div>      
     </>
   )
