@@ -13,7 +13,7 @@ function App() {
   
   useEffect(() => {
     localStorage.setItem("tasklist", JSON.stringify(taskList));
-  }, [taskList])
+  }, [taskList]);
 
 
   return (
